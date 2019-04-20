@@ -1,5 +1,5 @@
-import qt_auto as qt
-# import qt_all as qt
+# import qt_auto as qt
+import qt_all as qt
 # import qt
 
 
