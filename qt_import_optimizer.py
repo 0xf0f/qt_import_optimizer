@@ -26,12 +26,11 @@ while stack:
     iterator = stack[-1]
 
     try:
-        item = next(iterator)
+        path: Path = next(iterator)
     except StopIteration:
         stack.pop()
         continue
 
-    path = Path(item)
     if path.name in exclude:
         continue
 
